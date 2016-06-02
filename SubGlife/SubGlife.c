@@ -17,10 +17,10 @@
 
 #include <GL/glut.h>
 
-#include <redis/ae.h>
-#include <hiredis/hiredis.h>
-#include <hiredis/async.h>
-#include <hiredis/adapters/ae.h>
+#include <ae.h>
+#include <hiredis.h>
+#include <async.h>
+#include <adapters/ae.h>
 
 #define FALSE 0
 #define TRUE 1

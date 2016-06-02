@@ -34,7 +34,7 @@
 #include <string.h>
 #include <GL/freeglut_std.h>
 #include <GL/freeglut_ext.h>
-#include <hiredis/hiredis.h>
+#include "hiredis.h"
 using namespace std;
 
 // Cellspace dimensions

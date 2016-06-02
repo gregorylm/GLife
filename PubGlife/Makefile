@@ -3,12 +3,13 @@ OPTFLAG = -O0 -g
 CC = g++
 
 # Adjust these as needed to find the X11 and adevs libs and headers
-PREFIX = /usr/local
+AD_PREFIX = ../adevs-code-323-trunk
+HI_PREFIX = ../redis-3.2.0/deps
 LIBS = -lglut -lGL
 LIBPATH = -L/usr/X11R6/lib
-INCLUDE = -I${PREFIX}/include -I${PREFIX}/adevs/include -I${PREFIX}/include/hiredis
+INCLUDE = -I${AD_PREFIX}/include -I${HI_PREFIX}/hiredis
 
-LIBNAME=/usr/local/lib/libhiredis
+LIBNAME=../redis-3.2.0/deps/hiredis/libhiredis
 DYLIBSUFFIX=so
 STLIBSUFFIX=a
 DYLIBNAME=$(LIBNAME).$(DYLIBSUFFIX)

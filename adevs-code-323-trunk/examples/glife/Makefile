@@ -3,7 +3,7 @@ OPTFLAG = -O3
 CC = g++
 
 # Adjust these as needed to find the X11 and adevs libs and headers
-PREFIX = ../..
+PREFIX = /home/greg/src/PubSub/adevs-code-323-trunk
 LIBS = -lglut -lGL
 LIBPATH = -L/usr/X11R6/lib
 INCLUDE = -I${PREFIX}/include

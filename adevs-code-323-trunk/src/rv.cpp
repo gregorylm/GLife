@@ -377,7 +377,7 @@ double adevs::rv::hypergeometric(unsigned int m,unsigned int n,double p)
 double adevs::rv::binomial(double p,unsigned int n)
 {
 	unsigned int j;
-	int nold = -1;
+	unsigned int nold = 4294967295;
 	double am,em,g,angle,prob,bnl,sq,t,yy;
 	double pold = -1.0;
 	double pc,plog,pclog,en,oldg;
